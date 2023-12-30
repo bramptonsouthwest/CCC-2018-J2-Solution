@@ -14,7 +14,7 @@ class Program
 
         // Loop through both strings
         for (int i = 0; i < parkingSpaces; i++)
-        {
+        { 
             if (yesterday[i] == today[i] && today[i] == 'C')
             {
                 counter++;
